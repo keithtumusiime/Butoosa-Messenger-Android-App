@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#3399">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:hint="What is on your mind?"
+            android:background="@drawable/input"
+            android:padding="15dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageButton
+                android:layout_width="83dp"
+                android:layout_height="39dp"
+                android:background="@color/design_default_color_primary_dark"
+                android:src="@drawable/ic_people_black_24dp"
+                android:tooltipText="Add Photo" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:background="@color/design_default_color_primary_dark"
+                android:padding="5dp"
+                android:text="Create Post"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_constitution"
+            android:icon="@drawable/ic_constitution_24dp"
+            android:title="Constitution" />
+        <item
+            android:id="@+id/nav_finance"
+            android:icon="@drawable/ic_finance_24dp"
+            android:title="Finance" />
+        <item
+            android:id="@+id/nav_members"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Members" />
+        <item
+            android:id="@+id/nav_loans"
+            android:icon="@drawable/ic_loans_black_24dp"
+            android:title="Loans" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_available_black_24dp"
+            android:title="Events" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>
